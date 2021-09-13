@@ -1,0 +1,18 @@
+{
+  "name": "aprendendo-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ndluz/aprendendo-typescript.git",
+  "author": "Anderson Luz <anderson54644@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@types/node": "^16.9.1"
+  }
+}
