@@ -2,6 +2,10 @@
   "name": "aprendendo-typescript",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build:frontend": "webpack -w",
+    "build:backend": "tsc"
+  },
   "repository": "https://github.com/ndluz/aprendendo-typescript.git",
   "author": "Anderson Luz <anderson54644@gmail.com>",
   "license": "MIT",
@@ -12,10 +16,15 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.4.0",
+    "ts-loader": "^9.2.5",
     "ts-node": "^10.2.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.4.3",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
   },
   "dependencies": {
-    "@types/node": "^16.9.1"
+    "@types/node": "^16.9.1",
+    "@types/validator": "^13.6.3",
+    "validator": "^13.6.0"
   }
 }
